@@ -20,46 +20,21 @@
 <meta name="generator" content="Hexo 4.2.1"></head>
 
 <body id="bodyx">
-    <div class="hd logodiv">
-    <img src="/img/logo.png" class="logopng">
-    <p class="logot"><span class="logo_1">&lt;</span><span class="logo_2">/</span><span class="logo_3">#</span> pi <span class="logo_3">#</span><span class="logo_2">/</span><span class="logo_1">&gt;</span></p>
-</div>
-<div class="hd">
-    <ol class="breadcrumb">
-        
-            <li><a class="ba" href="/repos">repos</a></li>
-        
-            <li><a class="ba" href="/quotes">quotes</a></li>
-        
-            <li><a class="ba" href="/about">about</a></li>
-        
-            <li><a class="ba" href="https://github.com/PhanNN" target="_blank" rel="noopener">github</a></li>
-        
-    </ol>
-    <hr class="breadcrumbhr">
-</div>
-<div class="hd">
-    
-    
-        
-        
-            <div class="titlex">
-                <p><span class="jing">#</span>
-                    2020
-                </p>
-            </div>
-            
-        
-        <a class="flink" href="/2020/06/17/jenkins-w-postman/">
-            <div class="list">
-                <div class="postname">
-                    postman combine (Jenkins &amp; newman)
-                </div>
-                <div class="posttime">
-                    June 17th
-                </div>
-            </div>
-        </a>
+    <div class="hd posts">
+    <a href="/index.html"><i class="fa fa-reply replay-btn" aria-hidden="true"></i></a>
+    <div class="post-title">
+        <p>
+            postman combine (Jenkins &amp; newman)
+        </p>
+        <hr>
+    </div>
+    <div class="post-content">
+        <h1 id="postman-combine"><a href="#postman-combine" class="headerlink" title="postman-combine"></a>postman-combine</h1><p><a href="https://github.com/PhanNN/postman-combine" target="_blank" rel="noopener">#repo</a></p>
+<p>Using to combine many postman collections to one (ex: for running newman + jenkins with one result)<br><code>Note: support version 2.1</code><br><code>Old versions will be updated soon</code><br>TODO Pi: update old version</p>
+<h3 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h3><p>  npm install postman-combine -g</p>
+<h3 id="How-to-use"><a href="#How-to-use" class="headerlink" title="How to use"></a>How to use</h3><h5 id="Combine-many-files-to-one"><a href="#Combine-many-files-to-one" class="headerlink" title="Combine many files to one"></a>Combine many files to one</h5><pre><code>postman-combine -dest output.json -f a.json b.json</code></pre><h5 id="Combine-all-files-inside-folder-to-one"><a href="#Combine-all-files-inside-folder-to-one" class="headerlink" title="Combine all files inside folder to one"></a>Combine all files inside folder to one</h5><pre><code>postman-combine -dest output.json -d input</code></pre><h5 id="Help"><a href="#Help" class="headerlink" title="Help"></a>Help</h5><pre><code>postman-combine -h or postman-combine --help</code></pre>
+    </div>
+
     
 </div>
     <div class="footer" id="footer">
